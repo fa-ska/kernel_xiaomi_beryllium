@@ -19,7 +19,6 @@
 #include <linux/susfs.h>
 #endif
 
-
 static unsigned mounts_poll(struct file *file, poll_table *wait)
 {
 	struct seq_file *m = file->private_data;
